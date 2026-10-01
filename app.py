@@ -143,7 +143,7 @@ if uploaded_file is not None:
     # Draw and display results
     st.header("🖼️ Detection Results")
     result_image = draw_results(image, status, detected_cars)
-    st.image(result_image, channels="BGR", use_container_width=True, caption="Annotated Parking Lot (Green=Available, Red=Occupied)")
+    st.image(result_image, channels="BGR", caption="Annotated Parking Lot (Green=Available, Red=Occupied)")
     
     st.divider()
     
